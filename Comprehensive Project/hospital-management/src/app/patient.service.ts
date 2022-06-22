@@ -8,7 +8,7 @@ import { Patient } from './patient';
 })
 export class PatientService {
 
-  private baseURL = "http://localhost:8082/patients";
+  private baseURL = "http://localhost:8084/patients";
 
 
   constructor(private httpClient: HttpClient) { }
